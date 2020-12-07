@@ -1,0 +1,43 @@
+:root {
+  --baseColor: gray;
+  --requireColor: orange;
+  --safeColor: green;
+  --warningColor: yellow;
+  --dangerColor: red;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid var(--baseColor);
+  margin-left: 5px;
+}
+
+.requiredInput {
+  border: none;
+  border-bottom: 1px solid var(--requireColor);
+}
+.requiredLabel {
+    color: var(--requireColor);
+}
+.quad {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-left: 5px;
+}
+.safeColor {
+  background-color: var(--safeColor);
+}
+.warningColor {
+  background-color: var(--warningColor);
+}
+.dangerColor {
+  background-color: var(--dangerColor);
+}
+.noColor {
+  background-color: none;
+}
+.listaRisco {
+  display: flex;
+  align-items: center;
+}
